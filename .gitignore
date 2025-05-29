@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/venv/
+.idea/
+#ignora os arquivos do pycharm
+*.png
