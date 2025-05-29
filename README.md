@@ -40,35 +40,34 @@ Este repositório demonstra habilidades em manipulação, limpeza e análise de 
    3.  **Instale as dependências:**
         ```bash
         pip install -r requirements.txt
-        ```
 
-    4.  **Execute o script principal:**
+
+   4.  **Execute o script principal:**
         ```bash
         python src/main.py
-        ```
-        Isso irá carregar os dados, realizar as análises e gerar os gráficos, que serão salvos na raiz do projeto (e também exibidos, dependendo do seu ambiente).
+   Isso irá carregar os dados, realizar as análises e gerar os gráficos, que serão salvos na raiz do projeto (e também exibidos, dependendo do seu ambiente).
 
-    ## Resultados da Análise (Exemplos)
+## Resultados da Análise (Exemplos)
 
-    * **Total de Vendas:** R$ X,XXX.XX
-    * **Vendas por Categoria:**
+   * **Total de Vendas:** R$ X,XXX.XX
+   * **Vendas por Categoria:**
         * Electronics: R$ 1725.00
         * Apparel: R$ 300.00
         * Books: R$ 45.00
         * Office Supplies: R$20.00
-    * **Gráficos Gerados:**
+   * **Gráficos Gerados:**
         * `sales_by_category.png`: [![Vendas por Categoria](monthly_sales_category.png)](sales_by_category.png)
         * `monthly_sales_trend.png`: [![Tendência de Vendas Mensais](monthly_sales_trend.png)](monthly_sales_trend.png)
 
-    # Aprendizados com Pandas
+   # Aprendizados com Pandas
 
-    Durante o desenvolvimento deste projeto, explorei e solidifiquei meu entendimento sobre:
+Durante o desenvolvimento deste projeto, explorei e solidifiquei meu entendimento sobre:
 
-    * **DataFrames e Series:** Estruturas de dados fundamentais do Pandas.
-    * **Operações Básicas:** Leitura, seleção, filtragem, adição/remoção de colunas.
-    * **Limpeza de Dados:** `pd.to_datetime()`, `dropna()`, `drop_duplicates()`, `rename()`.
-    * **Agregação:** `groupby()`, `sum()`, `mean()`, `sort_values()`.
-    * **Visualização:** Integração com Matplotlib e Seaborn para insights visuais.
-    * **Melhores Práticas:** Modularização de código, uso de ambientes virtuais.
+* **DataFrames e Series:** Estruturas de dados fundamentais do Pandas.
+* **Operações Básicas:** Leitura, seleção, filtragem, adição/remoção de colunas.
+* **Limpeza de Dados:** `pd.to_datetime()`, `dropna()`, `drop_duplicates()`, `rename()`.
+* **Agregação:** `groupby()`, `sum()`, `mean()`, `sort_values()`.
+* **Visualização:** Integração com Matplotlib e Seaborn para insights visuais.
+* **Melhores Práticas:** Modularização de código, uso de ambientes virtuais.
 
 
